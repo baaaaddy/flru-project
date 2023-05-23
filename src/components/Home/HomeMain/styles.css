@@ -1,0 +1,114 @@
+.homeMain-container {
+  padding: 24px 26px 178px 27px;
+  background-image: url(../../../assets/images/background-main.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.homeMain-menu-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  max-width: 1600px;
+  top: 24px;
+}
+.homeMain-menu-block-scroll {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  /* max-width: 1600px; */
+  top: 0;
+  background-color: #ffffff;
+  z-index: 500;
+  padding: 13px 24px 18px 24px;
+}
+.homeMain-menu-middle-block {
+  display: flex;
+}
+.homeMain-menu-middle-text-block {
+  margin-right: 32px;
+  cursor: pointer;
+}
+.homeMain-menu-middle-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.homeMain-menu-middle-text-scroll {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 24px;
+  text-align: center;
+  color: #1d1d1d;
+}
+.homeMain-menu-right-block {
+  display: flex;
+}
+.homeMain-menu-right-block-svg {
+  margin-right: 29px;
+}
+
+.homeMain-center-text-up-block {
+  margin-top: 139px;
+  max-width: 787px;
+}
+.homeMain-center-text-up {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 73px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.homeMain-center-text-down-block {
+  max-width: 745px;
+  margin-top: 10px;
+}
+.homeMain-center-text-down {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.homeMain-center-button-block {
+  background-color: #00a2ff;
+  width: 634px;
+  border-radius: 13px;
+  margin-top: 40px;
+  padding: 32.5px 31px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeMain-center-button-text {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #ffffff;
+}
+.content {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}

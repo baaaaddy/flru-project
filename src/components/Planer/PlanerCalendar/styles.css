@@ -1,0 +1,121 @@
+.calendar-container {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #c2c9d1;
+  border-radius: 10px;
+  margin-right: 16px;
+  height: 170px;
+}
+.calendar-container-up-block {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #c2c9d1;
+}
+.calendar-container-up-block-weekday-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #333333;
+  margin-left: 8.5px;
+}
+.calendar-container-up-block-day-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #333333;
+  margin-right: 8.5px;
+}
+.calendar-container-down-block-text-block {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-top: 17px;
+  margin-bottom: 8px;
+}
+.calendar-container-down-block-text-one {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+.calendar-container-down-block-text-two {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: #000000;
+}
+.calendar-container-middledown-block {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.calendar-container-down-plan-one-block-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #00a2ff;
+  padding: 6.5px;
+}
+.calendar-container-down-plan-one-block {
+  height: calc(100% - 21px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calendar-container-down-plan-one-block-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 39px;
+  border: 1px solid #00a2ff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.calendar-container-down-plan-two-block {
+  height: calc(100% - 21px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calendar-container-down-plan-two-block-text {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1d1d1d;
+}
+.calendar-container-down-plan-three-block-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1d1d1d;
+}
+.calendar-container-down-plan-three-down-block-button {
+  position: relative;
+  bottom: 30px;
+  height: 21px;
+  text-align: right;
+  margin-right: 9px;
+  margin-bottom: 9px;
+}
+.calendar-container-down-plan-three-block-button {
+  display: flex;
+  height: calc(100% - 21px);
+  justify-content: center;
+  align-items: center;
+}
+.calendar-container-down-plan-three-block-button-center {
+  text-align: center;
+}
+.calendar-container-down-plan-three-block {
+  height: 100%;
+}

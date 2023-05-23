@@ -1,0 +1,191 @@
+.homeMain-container-center {
+  padding: 24px 26px 90px 27px;
+  background-image: url(../../../assets/images/background-main-center.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.homeMain-container-center::before {
+  background: #00a2ff;
+  opacity: 0.3;
+}
+.homeMain-container-center-up-block {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 80px;
+}
+
+.homeMain-container-center-up-block-menuCont {
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(73, 73, 73, 0.16);
+  border-radius: 11px;
+  padding: 26px 0 33px 32px;
+  background: #fff;
+  width: 100%;
+  margin-left: 24px;
+}
+.homeMain-container-center-up-block-menuContFirst {
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(73, 73, 73, 0.16);
+  border-radius: 11px;
+  padding: 26px 0 33px 32px;
+  background: #fff;
+  width: 100%;
+}
+.homeMain-container-center-up-block-menuCont-text-up {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 100%;
+  color: #1457a4;
+}
+.homeMain-container-center-up-block-menuCont-text-middle-block {
+  max-width: 423px;
+}
+.homeMain-container-center-up-block-menuCont-text-middle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 29px;
+  color: #c2c9d1;
+}
+.homeMain-container-center-up-block-menuCont-text-down-block {
+  margin-top: 26px;
+  cursor: pointer;
+}
+.homeMain-container-center-up-block-menuCont-text-down {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 29px;
+  color: #00a2ff;
+  border-bottom: 1px solid #00a2ff;
+}
+.homeMain-container-center-down-block {
+  display: flex;
+  padding: 57px 31px;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.05),
+    0px 0px 0px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 17px;
+  position: relative;
+  bottom: 50px;
+}
+.homeMain-container-center-down-block-middle {
+  display: flex;
+  justify-content: center;
+}
+
+.homeMain-container-center-down-block-middle-left-block {
+  display: grid;
+  justify-items: center;
+  margin-right: 67px;
+}
+.homeMain-container-center-down-block-middle-left-text-block-up-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.375rem;
+  line-height: 24px;
+  color: #1d1d1d;
+}
+.homeMain-container-center-down-block-middle-left-text-block-down-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #1d1d1d;
+}
+.homeMain-container-center-down-block-middle-right-block {
+  max-width: 995px;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 67px;
+}
+.homeMain-container-center-down-block-middle-right-block-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #1d1d1d;
+}
+.border {
+  border: 1px solid #d9d9d9;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: white;
+  background-position: center;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  padding: 8px 16px;
+  border-radius: 100%;
+  border: 2px solid black;
+  color: red;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-next {
+  background-image: url("../../../assets/images/rightArrow.png");
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* new styles added */
+.swiper-button {
+  display: flex;
+  position: absolute;
+  top: calc(50% - 12px);
+  z-index: 10;
+  cursor: pointer;
+}
+.swiper-button svg {
+  width: 50px;
+  height: 50px;
+}
+.image-swiper-button-prev {
+  left: 30px;
+}
+.image-swiper-button-next {
+  right: 30px;
+}
+.swiper-button-disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}

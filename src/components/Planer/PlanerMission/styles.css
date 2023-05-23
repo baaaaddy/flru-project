@@ -1,0 +1,180 @@
+.planer-mission-container {
+  background: #ffffff;
+  border-radius: 15.45px;
+  filter: drop-shadow(0px 4px 12px rgba(73, 73, 73, 0.16));
+  padding: 24px 12px 19px 28px;
+}
+.planer-mission-container-mission-block-text {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+.planer-mission-container-mission-block-textTwo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+.planer-mission-container-mission-blockTwo {
+  margin-top: 9px;
+}
+.star {
+  color: #cf2b07;
+}
+.planer-mission-container-completion-block {
+  display: flex;
+  align-items: center;
+  margin-top: 28px;
+}
+.planer-mission-container-completion-block-precent-block {
+  background: #ffffff;
+  border: 1px solid #c2c9d1;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 29px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.planer-mission-container-completion-block-precent-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 142.5%;
+  color: #c2c9d1;
+}
+.planer-mission-container-power-block {
+  display: flex;
+  justify-content: space-between;
+}
+.planer-mission-container-power-block-text-block {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 142.5%;
+  color: #000000;
+}
+.planer-mission-container-power-block-scale {
+  background: #ffffff;
+  border: 1px solid #c2c9d1;
+  border-radius: 6px;
+  width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 29px;
+  cursor: pointer;
+}
+.planer-mission-container-power-block-first {
+  display: flex;
+  margin-top: 28px;
+}
+.planer-mission-container-power-block-scale-text-block {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.planer-mission-container-power-block-scale-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 142.5%;
+  color: #d1d7dc;
+}
+.planer-mission-container-power-block-scale-text-block-child {
+  width: 100%;
+}
+.line {
+  width: 0.91px;
+  height: 14.34px;
+  background: #c2c9d1;
+  border-radius: 7px;
+}
+
+.planer-mission-container-pause-block-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 142.5%;
+  color: #000000;
+}
+.planer-mission-container-pause-block-containter {
+  display: flex;
+}
+.planer-mission-container-pause-block-containterTwo {
+  display: flex;
+  margin-left: 39px;
+  align-items: flex-start;
+}
+.planer-mission-container-pause-block-containter-down {
+  display: flex;
+  margin-top: 16px;
+}
+.planer-mission-container-pause-block-reply-one {
+  background: #ffffff;
+  border: 1px solid #c2c9d1;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.planer-mission-container-pause-block-reply-two {
+  background: #ffffff;
+  border: 1px solid #c2c9d1;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+.planer-mission-container-pause-block-reply-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 142.5%;
+  color: #c2c9d1;
+  margin: 6px 0;
+}
+.planer-mission-container-pause-block-reply-block {
+  display: flex;
+  align-items: center;
+}
+.planer-mission-container-pause-block {
+  display: flex;
+  margin-top: 33px;
+}
+.planer-mission-container-pause-block-text-block-down {
+  max-width: 202px;
+}
+.planer-mission-container-button-block {
+  display: flex;
+  justify-content: flex-end;
+}
+.planer-mission-container-button {
+  display: flex;
+  border: 2px solid #00a2ff;
+  border-radius: 13px;
+  width: 272px;
+  justify-content: center;
+  align-items: center;
+  height: 57px;
+  cursor: pointer;
+}
+.planer-mission-container-button-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #00a2ff;
+}

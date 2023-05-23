@@ -1,0 +1,167 @@
+.tasks-tip-container {
+  max-width: 893px;
+  background: #ffffff;
+  box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.05),
+    0px 0px 0px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  padding: 24px;
+}
+.tasks-tip-container-up-block-text {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1d1d1d;
+}
+.tasks-tip-container-down-block {
+  margin-top: 17px;
+}
+.tasks-tip-container-down-block-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1d1d1d;
+  margin-top: 16px;
+}
+
+/* stepone */
+.tasks-stepone-container {
+  margin-top: 24px;
+  padding: 24px 24px 40px 24px;
+  max-width: 893px;
+  background: #ffffff;
+  box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.05),
+    0px 0px 0px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+}
+.tasks-stepone-container-up-block-text {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1d1d1d;
+}
+.tasks-stepone-container-up-block {
+  margin-bottom: 25px;
+}
+.tasks-stepone-container-down-block-child-block-text {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1d1d1d;
+}
+.tasks-stepone-container-down-block-child-block-text-block {
+  margin-bottom: 8px;
+}
+.tasks-stepone-container-down-block-child-block-input {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #c2c9d1;
+  border-radius: 13px;
+  height: 59px;
+  padding-left: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #c2c9d1;
+}
+.tasks-stepone-container-down-block-child-block-input::placeholder {
+  color: #c2c9d1;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.tasks-stepone-container-down-block-child-block {
+  margin-top: 16px;
+}
+.tasks-stepone-container-down-block-button-block {
+  margin-top: 29px;
+  width: 269px;
+  height: 57px;
+  background: #c2c9d1;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.tasks-stepone-container-down-block-button-text {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+/* twocases */
+
+.tasks-twoCases-container {
+  margin-top: 24px;
+  padding: 26px 24px 190px;
+  max-width: 893px;
+  background: #ffffff;
+  box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.05),
+    0px 0px 0px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+}
+.tasks-twoCases-container-up-text {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 100%;
+  color: #1d1d1d;
+}
+.tasks-twoCases-container-down-block-child-text {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1d1d1d;
+}
+.tasks-twoCases-container-up-block {
+  margin-bottom: 24px;
+}
+.tasks-twoCases-container-down-block-child-input {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #c2c9d1;
+  border-radius: 13px;
+  padding-left: 24px;
+  height: 46px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #c2c9d1;
+  margin-top: 8px;
+}
+.tasks-twoCases-container-down-block-child-input::placeholder,
+.tasks-twoCases-container-down-block-child-textarea::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #c2c9d1;
+}
+.tasks-twoCases-container-down-block-child {
+  margin-bottom: 17px;
+}
+.tasks-twoCases-container-down-block-child-textarea {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #c2c9d1;
+  border-radius: 13px;
+  padding-left: 24px;
+  height: 46px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #c2c9d1;
+  margin-top: 8px;
+  height: 100px;
+  resize: none;
+  outline: none;
+}

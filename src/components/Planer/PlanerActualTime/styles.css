@@ -1,0 +1,54 @@
+.planer-actualtime-container {
+  background: #ffffff;
+  border-radius: 15.45px;
+  filter: drop-shadow(0px 4px 12px rgba(73, 73, 73, 0.16));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.planer-actualtime-text {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+.planer-actualtime-time-block {
+  display: flex;
+  margin-right: 28.5px;
+}
+.planer-actualtime-time-block-second {
+  margin-left: 34px;
+  display: flex;
+  align-items: center;
+}
+.planer-actualtime-time-block-first {
+  display: flex;
+  align-items: center;
+}
+.planer-actualtime-text-block {
+  margin-left: 28.5px;
+}
+.planer-actualtime-time-block-first-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #c2c9d1;
+}
+.planer-actualtime-time-block-first-time-block {
+  width: 214px;
+  height: 41px;
+  left: 68px;
+  top: 0px;
+  margin: 20px 9px 20px 16px;
+  background: rgba(194, 201, 209, 0.2);
+  display: flex;
+  align-items: center;
+
+  border: 1px solid #c2c9d1;
+  border-radius: 6px;
+}
